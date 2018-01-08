@@ -49,4 +49,4 @@ block要素は通常縦並びで、inline要素は横並びになります。
 この手法を用いれば、簡単に要素を横並びにすることが可能です。  
 
 横並びにする手法として、 `float` というパラメータを使う方法がありますが、floatは他のスタイルを崩してしまう要因になりやすいため、昨今のwebではあまり使用しません。
-
+[floatとinline-blockの違い](http://ja.learnlayout.com/inline-block.html)
