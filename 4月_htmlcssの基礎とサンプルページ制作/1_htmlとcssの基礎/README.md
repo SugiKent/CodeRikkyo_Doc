@@ -27,12 +27,12 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
  <!DOCTYPE html>
  <html>
  <head>
- 	<!-- この中はウェブブラウザに現れない -->
- 	<meta charset="utf-8">
- 	<title>HTMLの基本</title>
+ <!-- この中はウェブブラウザに現れない -->
+ <meta charset="utf-8">
+ <title>HTMLの基本</title>
  </head>
  <body>
- 	ここに書かれたことは実際に表示される
+ ここに書かれたことは実際に表示される
  </body>
  </html>
  ```
