@@ -19,5 +19,5 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
  <img src = "hoge.jpg">
  ```
 ## HTMLの基本構成  
-HTMLの構造を大きく分けると次のようになります。
- <img src = "htmlSample.png" width="400px">
+<p>HTMLの構造を大きく分けると次のようになります。</p>
+<p><img src = "htmlSample.png" width="400px"></p>
