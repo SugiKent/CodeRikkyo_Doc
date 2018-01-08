@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Wrapper {
+  width: 100%;
+  height: 500px;
+}
+
+.Block {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+
+.Block-left {
+  background: red;
+}
+
+.Block-right {
+  background: blue;
+}
