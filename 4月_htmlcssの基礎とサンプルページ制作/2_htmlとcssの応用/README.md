@@ -8,7 +8,7 @@
 ### 問題
 以下の様に、要素を横並びにしてみましょう。
 
-![横並びの画像](http://www)
+![横並びの画像](https://raw.githubusercontent.com/SugiKent/CodeRikkyo_Doc/master/4%E6%9C%88_htmlcss%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%81%A8%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%9A%E3%83%BC%E3%82%B8%E5%88%B6%E4%BD%9C/2_html%E3%81%A8css%E3%81%AE%E5%BF%9C%E7%94%A8/images/inline-block%E3%81%AE%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.png)
 
 ### 答え
 
