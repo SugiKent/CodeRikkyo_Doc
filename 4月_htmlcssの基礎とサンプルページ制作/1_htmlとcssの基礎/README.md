@@ -20,4 +20,4 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
  ```
 ## HTMLの基本構成  
 HTMLの構造を大きく分けると次のようになります。
-![HTMLの構造](htmlSample.png)
+![HTMLの構造](htmlSample.png = 400x)
