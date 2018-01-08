@@ -21,7 +21,8 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
  ```
 ## HTMLの基本構成  
 <p>HTMLの構造を大きく分けると次のようになります。</p>
-<p><img src = "htmlSample.png" width="400px"></p>
+<p><img src = "htmlSample.png" width="400px"></p>  
+
 ## 実際にHTMLを書いてみよう！  
 ```html
 <!DOCTYPE html>
