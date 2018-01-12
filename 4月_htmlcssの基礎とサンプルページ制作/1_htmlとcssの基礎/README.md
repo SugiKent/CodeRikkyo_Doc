@@ -41,9 +41,9 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ## ウェブブラウザで書いたコードを確認しよう
 ### 書いたコードのファイルをダブルクリック
 このアプリケーションで開くを押して、Chrome または Safari(ウェブブラウザ)を選択
-<p><img src = "assets/img/folder_sample.png" width="300p"></p>
+<p><img src = "assets/img/folder_sample.png" width="400p"></p>
 問題がなければブラウザで自分の書いたコードが見れるはず
-<p><img src = "assets/img/hello_world.png" width="300p"></p>
+<p><img src = "assets/img/hello_world.png" width="400p"></p>
 
 ## タグの一つ一つを知っていこう！
 1. h1 ~ h6(見出しを作るためのタグ)
@@ -56,6 +56,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 <h6> h6 について知ろう！</h6>
 ```
 
+<img src="assets/img/h1_h6.png" width="400px">
 2. p(段落区切りを示すタグ)  
 
 ```html
@@ -73,6 +74,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
   <li>5個目</li>
 </ul>
 ```
+<img src="assets/img/list.png" width="400px">
 
 4. div (大きなかたまりを作るタグ)  
 
@@ -88,11 +90,11 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 
 <div>
   <!-- フォルダの階層を辿って画像ファイルまで正確に記述する！ -->
-  <img src="assets/img/hello_world.png">
+  <img src="assets/img/ore.png" width="400px">
 </div>
 
 ```
-
+<img src="assets/img/ore.png">
 6. table, tr, th, td (表を作るために必要なタグ)  
 ```html
 
@@ -120,7 +122,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </div>
 
 ```
-
+<img src="assets/img/table.png">
 7. header,main,footer(Webページの上、真ん中、下を表す)
 ```html
 
