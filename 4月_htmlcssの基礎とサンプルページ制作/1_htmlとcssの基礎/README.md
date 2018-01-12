@@ -107,28 +107,28 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="utf-8">
-	<title>ヘッダー、メイン、フッターの勉強</title>
+  <meta charset="utf-8">
+  <title>ヘッダー、メイン、フッターの勉強</title>
 </head>
 <body>
-	<header style="background-color: #111">
-		<div style="color: #fff">
-			<h1>ヘッダー</h1>
-			<p>ヘッダーだよ</p>
-		</div>
-	</header>
-	<main style="background-color: #aaa">
-		<div>
-			<h1>メイン</h1>
-			<p>メインだよ</p>
-		</div>
-	</main>
-	<footer style="background-color: #fff">
-		<div>
-			<h1>フッター</h1>
-			<p>フッターだよ</p>
-		</div>
-	</footer>
+  <header style="background-color: #111">
+    <div style="color: #fff">
+      <h1>ヘッダー</h1>
+      <p>ヘッダーだよ</p>
+    </div>
+  </header>
+  <main style="background-color: #aaa">
+    <div>
+      <h1>メイン</h1>
+      <p>メインだよ</p>
+    </div>
+  </main>
+  <footer style="background-color: #fff">
+    <div>
+      <h1>フッター</h1>
+      <p>フッターだよ</p>
+    </div>
+  </footer>
 </body>
 </html>
 
