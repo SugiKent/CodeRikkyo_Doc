@@ -39,7 +39,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </html>
 ```
 ## ウェブブラウザで書いたコードを確認
-<p><img src = "folder_sample.png" width="400px"><img src = "hello_world.png" width="400px">
+<p><img src = "folder_sample.png" width="350px"><img src = "hello_world.png" margin-left = "30px" width="350px">
 
 
 
