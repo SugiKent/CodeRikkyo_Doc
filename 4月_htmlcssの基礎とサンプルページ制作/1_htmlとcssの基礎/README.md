@@ -92,9 +92,10 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
   <!-- フォルダの階層を辿って画像ファイルまで正確に記述する！ -->
   <img src="assets/img/ore.png" width="400px">
 </div>
-
 ```
-<img src="assets/img/ore.png">
+
+<img src="assets/img/ore.png" width="400px">
+
 6. table, tr, th, td (表を作るために必要なタグ)  
 ```html
 
@@ -120,9 +121,10 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
     </tbody>
   </table>
 </div>
-
 ```
+
 <img src="assets/img/table.png" width="182px">
+
 7. header,main,footer(Webページの上、真ん中、下を表す)
 ```html
 
