@@ -39,7 +39,11 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </html>
 ```
 ## ウェブブラウザで書いたコードを確認
-<p><img src = "folder_sample.png"><img src = "hello_world.png"></p>
+### 書いたコードのファイルをダブルクリック
+このアプリケーションで開くを押して、Chrome または Safari(ウェブブラウザ)を選択
+<p><img src = "folder_sample.png" width="300p"></p>
+問題がなければブラウザで自分の書いたコードが見れるはず
+<p><img src = "hello_world.png" width="300p"></p>
 
 
 
