@@ -41,9 +41,9 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ## ウェブブラウザで書いたコードを確認しよう
 ### 書いたコードのファイルをダブルクリック
 このアプリケーションで開くを押して、Chrome または Safari(ウェブブラウザ)を選択
-<p><img src = "assets/img/folder_sample.png" width="400p"></p>
+<p><img src = "assets/img/folder_sample.png" width="500p"></p>
 問題がなければブラウザで自分の書いたコードが見れるはず
-<p><img src = "assets/img/hello_world.png" width="400p"></p>
+<p><img src = "assets/img/hello_world.png" width="500p"></p>
 
 ## タグの一つ一つを知っていこう！
 1. h1 ~ h6(見出しを作るためのタグ)
@@ -84,6 +84,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
   <p>かたまりの文章</p>
 </div>
 ```
+<img src="assets/img/div_mixed.png" width="400px">
 
 5. img (画像を貼るためのタグ)  
 ```html
@@ -100,7 +101,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ```html
 
 <div>
-  <h1>テーブルについて</h1>
+  <h1>テーブル１</h1>
   <table border="1">
     <caption>表題</caption><!-- 表題に使う -->
     <thead>
@@ -160,7 +161,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </html>
 
 ```
-
+<img src="assets/img/parts.png" width="400px">
 
 
 
