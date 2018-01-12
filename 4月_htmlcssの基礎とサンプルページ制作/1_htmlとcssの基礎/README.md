@@ -39,8 +39,8 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </html>
 ```
 ## ウェブブラウザで書いたコードを確認
-<img src = "folder_sample.png">
-<img src = "hello_world.png">
+<p><img src = "folder_sample.png"><img src = "hello_world.png"></p>
+
 
 
 
