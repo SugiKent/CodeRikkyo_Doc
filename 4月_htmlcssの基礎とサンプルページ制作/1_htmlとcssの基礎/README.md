@@ -56,18 +56,83 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 <h6> h6 について知ろう！</h6>
 ```
 
-1. p(段落区切りを示すタグ)
+1. p(段落区切りを示すタグ)  
 
-2. ul, li (リストを作るタグ)
+```html
+<p>段落を示すのはpタグ！</p>
+```
 
-3. div (大きなかたまりを作るタグ)
+2. ul, li (リストを作るタグ)  
 
-4. img (画像を貼るためのタグ)
+```html
+<ul>
+	<li>1個目</li>
+	<li>2個目</li>
+	<li>3個目</li>
+	<li>4個目</li>
+	<li>5個目</li>
+</ul>
+```
 
-5. table, tr, th, td (表を作るために必要なタグ)
+3. div (大きなかたまりを作るタグ)  
 
+```html
+<div>
+	<h1>かたまりの見出し</h1>
+	<p>かたまりの文章</p>
+</div>
+```
 
+4. img (画像を貼るためのタグ)  
+```html
 
+<div>
+	<img src="assets/img/hello_world.png">
+</div>
+<!-- フォルダの階層を辿って画像ファイルまで正確に記述する！ -->
+```
+
+5. table, tr, th, td (表を作るために必要なタグ)  
+```html
+
+<ul>
+
+</ul>
+
+```
+
+5. header,main,footer(Webページの上、真ん中、下を表す)
+```html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>ヘッダー、メイン、フッターの勉強</title>
+</head>
+<body>
+	<header style="background-color: #111">
+		<div style="color: #fff">
+			<h1>ヘッダー</h1>
+			<p>ヘッダーだよ</p>
+		</div>
+	</header>
+	<main style="background-color: #aaa">
+		<div>
+			<h1>メイン</h1>
+			<p>メインだよ</p>
+		</div>
+	</main>
+	<footer style="background-color: #fff">
+		<div>
+			<h1>フッター</h1>
+			<p>フッターだよ</p>
+		</div>
+	</footer>
+</body>
+</html>
+
+```
 
 
 
