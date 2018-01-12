@@ -87,17 +87,37 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ```html
 
 <div>
+  <!-- フォルダの階層を辿って画像ファイルまで正確に記述する！ -->
   <img src="assets/img/hello_world.png">
 </div>
-<!-- フォルダの階層を辿って画像ファイルまで正確に記述する！ -->
+
 ```
 
 5. table, tr, th, td (表を作るために必要なタグ)  
 ```html
 
-<ul>
-
-</ul>
+<div>
+  <h1>テーブルについて</h1>
+  <table border="1">
+    <caption>表題</caption><!-- 表題に使う -->
+    <thead>
+      <tr>
+        <th>ヘッダ１</th>
+        <th>ヘッダ２</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>１ー１</td>
+        <td>２ー１</td>
+      </tr>
+      <tr>
+        <td>１ー２</td>
+        <td>２ー２</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ```
 
@@ -111,18 +131,21 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
   <title>ヘッダー、メイン、フッターの勉強</title>
 </head>
 <body>
+<!-- ここからヘッダー -->
   <header style="background-color: #111">
     <div style="color: #fff">
       <h1>ヘッダー</h1>
       <p>ヘッダーだよ</p>
     </div>
   </header>
+<!-- ここからメイン -->
   <main style="background-color: #aaa">
     <div>
       <h1>メイン</h1>
       <p>メインだよ</p>
     </div>
   </main>
+<!-- ここからフッター -->
   <footer style="background-color: #fff">
     <div>
       <h1>フッター</h1>
@@ -133,6 +156,8 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </html>
 
 ```
+
+
 
 
 
