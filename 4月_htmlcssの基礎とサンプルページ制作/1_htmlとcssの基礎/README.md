@@ -122,7 +122,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 </div>
 
 ```
-<img src="assets/img/table.png">
+<img src="assets/img/table.png" width="182px">
 7. header,main,footer(Webページの上、真ん中、下を表す)
 ```html
 
