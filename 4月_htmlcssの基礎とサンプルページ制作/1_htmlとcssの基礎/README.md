@@ -164,5 +164,54 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 <img src="assets/img/parts.png" width="400px">
 
 ## CSSについて
+CSSは、HTMLで作ったコンテンツを装飾するもの。
+ここではCSSの当て方について学んでいこう。
+
+## CSSの使い方
+htmlファイル
+```html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>CSSの勉強</title>
+  <meta charset="utf-8">
+  <!-- ↓ここでCSSのファイルを読み込む -->
+  <link rel="stylesheet" href="hello.css">
+</head>
+<body>
+  <div class="css_sample">
+    <h1 class="change_color">
+      赤色に変わるよ！
+    </h1>
+    <h1 class="change_font">
+      h1のフォントを変更するよ！
+    </h1>
+    <h1 class="change_size">
+      h1より大きくするよ！
+    </h1>
+  </div>
+</body>
+</html>
+
+```
+cssファイル
+
+```CSS
+
+.change_color{
+  /**/
+  color: #ff0000;
+}
+
+.change_font{
+  font-family: 'Times New Roman';
+}
+
+.change_size{
+  font-size: 80px;
+}
+
+```
 
 
