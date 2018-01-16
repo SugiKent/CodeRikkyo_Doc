@@ -195,12 +195,11 @@ htmlファイル
 </html>
 
 ```
-cssファイル
+hello.css(読み込むCSSファイル)
 
 ```CSS
 
 .change_color{
-  /**/
   color: #ff0000;
 }
 
@@ -213,5 +212,5 @@ cssファイル
 }
 
 ```
-
+<img src="assets/img/hello_css.png" width="400px">
 
