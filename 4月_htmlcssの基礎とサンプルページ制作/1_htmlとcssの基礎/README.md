@@ -76,7 +76,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ```
 <img src="assets/img/list.png" width="400px">
 
-4. div (大きなかたまりを作るタグ)  
+4. div (大きなかたまりを作るタグ)  !
 
 ```html
 <div>
@@ -84,9 +84,9 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
   <p>かたまりの文章</p>
 </div>
 ```
-<img src="assets/img/div_mixed.png" width="400px">
+<img src="assets/img/div_mixed.png" width="600px">
 
-5. img (画像を貼るためのタグ)  
+5. img (画像を貼るためのタグ)  !
 ```html
 
 <div>
@@ -97,7 +97,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 
 <img src="assets/img/ore.png" width="400px">
 
-6. table, tr, th, td (表を作るために必要なタグ)  
+6. table, tr, th, td (表を作るために必要なタグ)  !
 ```html
 
 <div>
@@ -163,19 +163,6 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ```
 <img src="assets/img/parts.png" width="400px">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## CSSについて
 
 
