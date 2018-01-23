@@ -216,8 +216,47 @@ hello.css(読み込むCSSファイル)
 ```
 <img src="assets/img/hello_css.png" width="400px">
 
-### 2. background-color, background-image, opacity, rgba
+### 2. background-color, background-image, opacity
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>back ground</title>
+  <link rel="stylesheet" href="background.css">
+</head>
+<body>
+  <div class = "container">
+    <div class="image">
+      <h1>背景画像</h1>
+    </div>
+    <div class="color">
+      <h1>背景色</h1>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+```CSS
+*{
+  margin:0px;
+}
+.image{
+  background-image: url(my_code.png);
+  height: 500px;
+  opacity: 0.8;
+  margin: 0px;
+  color: #fff;
+}
+
+.color{
+  background-color: #aaa;
+  height: 500px;
+  margin: 0px;
+}
+```
+<img src="assets/img/background.png" width="500px">
 ### 3. width, height, padding, margin
 
 ### 4. float, display
