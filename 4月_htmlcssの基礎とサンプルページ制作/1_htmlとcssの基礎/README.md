@@ -216,3 +216,8 @@ hello.css(読み込むCSSファイル)
 ```
 <img src="assets/img/hello_css.png" width="400px">
 
+### 2. background-color, background-image, opacity, rgba
+
+### 3. width, height, padding, margin
+
+### 4. float, display
