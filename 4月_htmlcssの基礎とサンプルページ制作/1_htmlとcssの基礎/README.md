@@ -239,29 +239,82 @@ hello.css(読み込むCSSファイル)
 ```
 
 ```CSS
+/*全体に効くCSS*/
 *{
+  /*余白*/
   margin:0px;
 }
 .image{
+  /*背景をmy_code.pngにする*/
   background-image: url(my_code.png);
+  /*高さ*/
   height: 500px;
+  /*背景画像の透明度*/
   opacity: 0.8;
-  margin: 0px;
+  /*字の色*/
   color: #fff;
 }
 
 .color{
+  /*背景色*/
   background-color: #aaa;
+  /*高さ*/
   height: 500px;
-  margin: 0px;
 }
 ```
 <img src="assets/img/background.png" width="500px">
-### 3. width, height, padding, margin
 
-### 4. float, display
+### 3.height, padding, margin
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>layout</title>
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="btn facebook">FaceBook</a>
+    <a href="#" class="btn twitter">Twitter</a>
+    <a href="#" class="btn line">Line</a>
+  </div>
+</body>
+</html>
+```
 
-### 5.text-aline,position
+```CSS
+.container{
+  /*上下・左右の余白を均一に決めている*/
+  margin: 20px;
+  /*containerの高さを決めている*/
+  height: 40px;
+}
+
+.btn{
+  /*左の余白*/
+  margin-left: 10px;
+  color: #fff;
+  /*上下・左右の順に書く*/
+  padding: 10px 20px;
+}
+
+.twitter{
+  background-color: #00aced;
+}
+
+.facebook{
+  background-color: #4267b2;
+}
+
+.line{
+  background-color: #00b900;
+}
+```
+
+### 4. float, display, width
+
+### 5.text-aline, position
 
 ### 6. 復習（簡単なページを書いてみよう）
 
