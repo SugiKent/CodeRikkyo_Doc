@@ -76,7 +76,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ```
 <img src="assets/img/list.png" width="400px">
 
-4. div (大きなかたまりを作るタグ)  
+4. div (大きなかたまりを作るタグ)  !
 
 ```html
 <div>
@@ -84,9 +84,9 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
   <p>かたまりの文章</p>
 </div>
 ```
-<img src="assets/img/div_mixed.png" width="400px">
+<img src="assets/img/div_mixed.png" width="600px">
 
-5. img (画像を貼るためのタグ)  
+5. img (画像を貼るためのタグ)  !
 ```html
 
 <div>
@@ -97,7 +97,7 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 
 <img src="assets/img/ore.png" width="400px">
 
-6. table, tr, th, td (表を作るために必要なタグ)  
+6. table, tr, th, td (表を作るために必要なタグ)  !
 ```html
 
 <div>
@@ -163,19 +163,245 @@ HTMLは、①開始タグと終了タグで一つの要素、②一つのタグ�
 ```
 <img src="assets/img/parts.png" width="400px">
 
+## CSSについて
+CSSは、HTMLで作ったコンテンツを装飾するもの。
+ここではCSSの当て方について学んでいこう。
 
+## CSSの使い方
+### 1. color, font-family , font-size
+ここでは、テキストの色の変え方、フォントの変え方、フォントの大きさの変え方を学ぼう！
+htmlファイル
+```html
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>CSSの勉強</title>
+  <meta charset="utf-8">
+  <!-- ↓ここでCSSのファイルを読み込む -->
+  <link rel="stylesheet" href="hello.css">
+</head>
+<body>
+  <div class="css_sample">
+    <h1 class="change_color">
+      赤色に変わるよ！
+    </h1>
+    <h1 class="change_font">
+      h1をおしゃれにするよ！
+    </h1>
+    <h1 class="change_size">
+      h1より大きくするよ！
+    </h1>
+  </div>
+</body>
+</html>
 
+```
+hello.css(読み込むCSSファイル)
 
+```CSS
 
+.change_color{
+  color: #ff0000;
+}
 
+.change_font{
+  font-family: 'Times New Roman';
+}
 
+.change_size{
+  font-size: 80px;
+}
 
+```
+<img src="assets/img/hello_css.png" width="400px">
 
+### 2. background-color, background-image, opacity
+背景のCSSの当て方について学んでいこう！
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>back ground</title>
+  <link rel="stylesheet" href="background.css">
+</head>
+<body>
+  <div class = "container">
+    <div class="image">
+      <h1>背景画像</h1>
+    </div>
+    <div class="color">
+      <h1>背景色</h1>
+    </div>
+  </div>
+</body>
+</html>
+```
 
+```CSS
+/*全体に効くCSS*/
+*{
+  /*余白*/
+  margin:0px;
+}
+.image{
+  /*背景をmy_code.pngにする*/
+  background-image: url(my_code.png);
+  /*高さ*/
+  height: 500px;
+  /*背景画像の透明度*/
+  opacity: 0.8;
+  /*字の色*/
+  color: #fff;
+}
 
+.color{
+  /*背景色*/
+  background-color: #aaa;
+  /*高さ*/
+  height: 500px;
+}
+```
+<img src="assets/img/background.png" width="500px">
 
+### 3.height, padding, margin
+要素の高さ、paddingとmarginの違いについて学ぼう！
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>layout</title>
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="btn facebook">FaceBook</a>
+    <a href="#" class="btn twitter">Twitter</a>
+    <a href="#" class="btn line">Line</a>
+  </div>
+</body>
+</html>
+```
 
+```CSS
+.container{
+  /*上下・左右の余白を均一に決めている*/
+  margin: 20px;
+  /*containerの高さを決めている*/
+  height: 40px;
+}
 
+.btn{
+  /*左の余白*/
+  margin-left: 10px;
+  color: #fff;
+  /*上下・左右の順に書く*/
+  padding: 10px 20px;
+}
 
+.twitter{
+  background-color: #00aced;
+}
+
+.facebook{
+  background-color: #4267b2;
+}
+
+.line{
+  background-color: #00b900;
+}
+```
+<img src="assets/img/layout.png" width="300px">
+
+### 4. float, display, width, text-aline
+要素の位置、インライン要素とブロック要素について知ろう！
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>display</title>
+  <link rel="stylesheet" href="display.css">
+</head>
+<body>
+  <div class="for_float">
+    <h3>タイトル</h3>
+    <ul>
+      <li class="h_icons">要素１</li>
+      <li class="h_icons">要素２</li>
+      <li class="h_icons">要素３</li>
+    </ul>
+  </div>
+  <div class="for_display">
+    <div class="row first">
+      <h1>左の記事</h1>
+    </div>
+    <div class="row second">
+      <h1>真ん中の記事</h1>
+    </div>
+    <div class="row third">
+      <h1>右の記事</h1>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+```CSS
+.for_float {
+  /*高さを指定*/
+  height: 70px;
+  /*背景色を指定*/
+  background-color: #808080;
+  /*文字の色を指定*/
+  color: #fff;
+}
+
+h3 {
+  /*左に要素を寄せるときに使う*/
+  float: left;
+}
+
+ul {
+  /*右に要素を寄せるときに使う*/
+  float: right;
+  list-style: none;
+}
+
+.h_icons {
+  /*左に要素を寄せるときに使う*/
+  float: left;
+  /*右の余白を40px*/
+  margin-right:40px; 
+}
+
+.row {
+  /*block要素のものをinline-blockにする*/
+  display: inline-block;
+  /*幅を要素の３３％にする*/
+  width: 33%;
+  /*インライン要素を真ん中寄せにする*/
+  text-align: center;
+}
+
+.first {
+  background-color: #ff0000;
+}
+
+.second {
+  background-color: #00ff00;
+}
+
+.third {
+  background-color: #0000ff;
+}
+```
+<img src="assets/img/display.png" width="500px">
+
+### 5.position
+
+### 6. 復習（簡単なページを書いてみよう）
+
+### (？. @media)やるかは未定
 
