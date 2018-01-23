@@ -314,6 +314,87 @@ hello.css(読み込むCSSファイル)
 <img src="assets/img/layout.png" width="300px">
 
 ### 4. float, display, width
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>display</title>
+  <link rel="stylesheet" href="display.css">
+</head>
+<body>
+  <div class="for_float">
+    <h3>タイトル</h3>
+    <ul>
+      <li class="h_icons">要素１</li>
+      <li class="h_icons">要素２</li>
+      <li class="h_icons">要素３</li>
+    </ul>
+  </div>
+  <div class="for_display">
+    <div class="row first">
+      <h1>左の記事</h1>
+    </div>
+    <div class="row second">
+      <h1>真ん中の記事</h1>
+    </div>
+    <div class="row third">
+      <h1>右の記事</h1>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+```CSS
+.for_float {
+  /*高さを指定*/
+  height: 70px;
+  /*背景色を指定*/
+  background-color: #808080;
+  /*文字の色を指定*/
+  color: #fff;
+}
+
+h3 {
+  /*左に要素を寄せるときに使う*/
+  float: left;
+}
+
+ul {
+  /*右に要素を寄せるときに使う*/
+  float: right;
+  list-style: none;
+}
+
+.h_icons {
+  /*左に要素を寄せるときに使う*/
+  float: left;
+  /*右の余白を40px*/
+  margin-right:40px; 
+}
+
+.row {
+  /*block要素のものをinline-blockにする*/
+  display: inline-block;
+  /*幅を要素の３３％にする*/
+  width: 33%;
+  /*インライン要素を真ん中寄せにする*/
+  text-align: center;
+}
+
+.first {
+  background-color: #ff0000;
+}
+
+.second {
+  background-color: #00ff00;
+}
+
+.third {
+  background-color: #0000ff;
+}
+```
 
 ### 5.text-aline, position
 
