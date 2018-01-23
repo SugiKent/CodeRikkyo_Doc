@@ -217,7 +217,7 @@ hello.css(読み込むCSSファイル)
 <img src="assets/img/hello_css.png" width="400px">
 
 ### 2. background-color, background-image, opacity
-
+背景のCSSの当て方について学んでいこう！
 ```html
 <!DOCTYPE html>
 <html>
@@ -265,6 +265,7 @@ hello.css(読み込むCSSファイル)
 <img src="assets/img/background.png" width="500px">
 
 ### 3.height, padding, margin
+要素の高さ、paddingとmarginの違いについて学ぼう！
 ```html
 <!DOCTYPE html>
 <html>
@@ -314,6 +315,7 @@ hello.css(読み込むCSSファイル)
 <img src="assets/img/layout.png" width="300px">
 
 ### 4. float, display, width, text-aline
+要素の位置、インライン要素とブロック要素について知ろう！
 ```html
 <!DOCTYPE html>
 <html>
