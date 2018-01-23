@@ -313,7 +313,7 @@ hello.css(読み込むCSSファイル)
 ```
 <img src="assets/img/layout.png" width="300px">
 
-### 4. float, display, width
+### 4. float, display, width, text-aline
 ```html
 <!DOCTYPE html>
 <html>
@@ -396,7 +396,7 @@ ul {
 }
 ```
 
-### 5.text-aline, position
+### 5.position
 
 ### 6. 復習（簡単なページを書いてみよう）
 
