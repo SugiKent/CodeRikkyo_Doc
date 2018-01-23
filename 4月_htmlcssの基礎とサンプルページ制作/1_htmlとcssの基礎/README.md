@@ -311,7 +311,7 @@ hello.css(読み込むCSSファイル)
   background-color: #00b900;
 }
 ```
-<img src="assets/img/layout.png" width="500px" height="70px">
+<img src="assets/img/layout.png" width="500px" height="100px">
 
 ### 4. float, display, width
 
