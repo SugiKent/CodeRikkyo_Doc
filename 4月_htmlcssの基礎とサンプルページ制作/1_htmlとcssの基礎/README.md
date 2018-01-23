@@ -395,6 +395,7 @@ ul {
   background-color: #0000ff;
 }
 ```
+<img src="assets/img/display.png" width="500px">
 
 ### 5.position
 
