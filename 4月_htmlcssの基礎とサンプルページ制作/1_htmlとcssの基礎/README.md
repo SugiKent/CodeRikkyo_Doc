@@ -187,7 +187,7 @@ htmlファイル
       赤色に変わるよ！
     </h1>
     <h1 class="change_font">
-      h1のフォントを変更するよ！
+      h1をおしゃれにするよ！
     </h1>
     <h1 class="change_size">
       h1より大きくするよ！
@@ -222,7 +222,9 @@ hello.css(読み込むCSSファイル)
 
 ### 4. float, display
 
-### 5. 復習（簡単なページを書いてみよう）
+### 5.text-aline,position
+
+### 6. 復習（簡単なページを書いてみよう）
 
 ### (？. @media)やるかは未定
 
