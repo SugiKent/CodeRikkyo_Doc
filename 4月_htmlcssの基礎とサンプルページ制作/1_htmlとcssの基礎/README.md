@@ -314,7 +314,7 @@ hello.css(読み込むCSSファイル)
 ```
 <img src="assets/img/layout.png" width="300px">
 
-### 4. float, display, width, text-aline
+### 4. float, display, width, text-aline, position
 要素の位置、インライン要素とブロック要素について知ろう！
 ```html
 <!DOCTYPE html>
@@ -325,7 +325,7 @@ hello.css(読み込むCSSファイル)
   <link rel="stylesheet" href="display.css">
 </head>
 <body>
-  <div class="for_float">
+  <div class="header">
     <h3>タイトル</h3>
     <ul>
       <li class="h_icons">要素１</li>
@@ -334,28 +334,66 @@ hello.css(読み込むCSSファイル)
     </ul>
   </div>
   <div class="for_display">
-    <div class="row first">
-      <h1>左の記事</h1>
+    <!-- １列目 -->
+    <div class="block">
+      <div class="row first">
+        <h1>左の記事</h1>
+      </div>
+      <div class="row second">
+        <h1>真ん中の記事</h1>
+      </div>
+      <div class="row third">
+        <h1>右の記事</h1>
+      </div>
     </div>
-    <div class="row second">
-      <h1>真ん中の記事</h1>
+    <!-- ２列目 -->
+    <div class="block">
+      <div class="row second">
+        <h1>左の記事</h1>
+      </div>
+      <div class="row third">
+        <h1>真ん中の記事</h1>
+      </div>
+      <div class="row first">
+        <h1>右の記事</h1>
+      </div>
     </div>
-    <div class="row third">
-      <h1>右の記事</h1>
+    <!-- ３列目 -->
+    <div class="block">
+      <div class="row third">
+        <h1>左の記事</h1>
+      </div>
+      <div class="row first">
+        <h1>真ん中の記事</h1>
+      </div>
+      <div class="row second">
+        <h1>右の記事</h1>
+      </div>
     </div>
   </div>
 </body>
 </html>
+
 ```
 
 ```CSS
-.for_float {
+*{
+  margin: 0px;
+  color: #fff;
+}
+.header {
   /*高さを指定*/
   height: 70px;
   /*背景色を指定*/
-  background-color: #808080;
-  /*文字の色を指定*/
-  color: #fff;
+  background-color: #000;
+  opacity: 0.9;
+  /*ヘッダーを一番上に常に固定*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*ヘッダーの要素を真ん中に持ってくる*/
+  line-height: 70px;
 }
 
 h3 {
@@ -375,7 +413,6 @@ ul {
   /*右の余白を40px*/
   margin-right:40px; 
 }
-
 .row {
   /*block要素のものをinline-blockにする*/
   display: inline-block;
@@ -383,6 +420,7 @@ ul {
   width: 33%;
   /*インライン要素を真ん中寄せにする*/
   text-align: center;
+  height: 400px;
 }
 
 .first {
@@ -399,9 +437,7 @@ ul {
 ```
 <img src="assets/img/display.png" width="500px">
 
-### 5.position
-
-### 6. 復習（簡単なページを書いてみよう）
+### 5. 復習（簡単なページを書いてみよう）
 
 ### (？. @media)やるかは未定
 
